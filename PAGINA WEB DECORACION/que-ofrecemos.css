@@ -1,0 +1,110 @@
+body{
+    background: url(imagenes/jarron\ rosado.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-position-y: 75%;
+}
+
+button{
+    background-color: rgb(192, 155, 92);
+    font-family: cursive;
+    width: 18%;
+    border-radius: 25px;
+    border: 0px;
+    color: darkgoldenrod;
+    cursor: pointer;
+    height: 51px;
+ }
+
+ .titulos{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    justify-content: space-around;
+    font-family: cursive;
+    font-size: larger;
+    color: rgb(67, 64, 64);
+}
+
+.titulos a {
+    text-decoration: auto;
+    color: rgb(67, 64, 64);
+}
+
+.container-parrafo{
+    font-family: cursive;
+    font-size: 240%;
+    margin-top: 5%;
+    padding-top: 0%;
+    border-top: 0%;
+
+}
+
+.container-seccion {
+    height: 100%; /* or inline-flex */
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.container-seccion .seccion {
+    width: 46%;
+    padding: 1%;
+}
+
+.logo-decoraciones {
+    height: 30%;
+    display: flex;
+}
+
+.container-decoraciones {
+    height: 32%;
+    margin-top: 1%;
+}
+.img-alcoba{
+    width: 100%;
+    height: 100%;
+}
+
+.container-decoraciones .decoration-seccions-1 {
+    width: 45%;
+    height: 216%;
+    margin-top: 2%;
+}
+.container-decoraciones .decoration-seccions-2 {
+    width: 55%;
+    height: 216%;
+    margin-top: 2%;
+}
+.container-decoraciones .decoration-seccions div {
+    display: block;
+    height: 48%;
+    margin: 1%;
+}
+.color-parrafo{
+    color: rgb(52, 48, 48);
+}
+.img-computador{
+    width: 350px;
+    height: 100%;
+}
+.img-escritorio{
+    width: 350px;
+    height: 100%;
+}
+.container-section1-2{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.img-jarrones{
+    width: 100%;
+    height: 100%;
+}
+.img-familia{
+    width: 100%;
+    height: 100%;
+}
+
+
+
