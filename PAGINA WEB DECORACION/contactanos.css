@@ -97,6 +97,7 @@ label{
 	border-radius: 10px;	
 	width: 420px;   
   cursor: pointer;
+  background: rgb(67, 64, 64);
 }
 
 p{

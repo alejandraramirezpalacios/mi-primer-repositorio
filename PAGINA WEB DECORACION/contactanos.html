@@ -2,14 +2,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Formulario de contacto</title>
-
-  <link rel="stylesheet" type="text/css" href="contactanos.css">
-
-  
-  
-  </head>
-
-
+	<link rel="stylesheet" type="text/css" href="contactanos.css">  
+</head>	
 <body>	
   
   <!-- formulario de contacto en html y css -->  
@@ -32,45 +26,36 @@
     </button>
 </div>
 	<div class="contact_form">
-
+		
 		<div class="formulario">			
-      <h2>Formulario de contacto</h2>
+			<h2>Formulario de contacto</h2>
+			<form id="formularioContacto">
+				<p>
+					<label for="nombre">Nombre *</label>
+					<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+				</p>
+				
+				<p>
+					<label for="email">Email *</label>
+					<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+				</p>
+				
+				<p>
+					<label for="telefone">Teléfono *</label>
+					<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+				</p>
+				
+				<p>
+					<label for="mensaje">Mensaje *</label>                     
+					<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+				</p>
 
-					<form action="submeter-formulario.php" method="post">				
+				<input class="enviar" type="submit" value="Enviar" id="enviar">
 
-						
-								<p>
-									<label for="nombre" class="colocar_nombre">Nombre
-										<span class="obligatorio">*</span>
-									</label>
-										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-								</p>
-							
-								<p>
-									<label for="email" class="colocar_email">Email
-										<span class="obligatorio">*</span>
-									</label>
-										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-								</p>
-						
-								<p>
-									<label for="telefone" class="colocar_telefono">Teléfono
-									</label>
-										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-								</p>		
-							
-								<p>
-									<label for="mensaje" class="colocar_mensaje">Mensaje
-										<span class="obligatorio">*</span>
-									</label>                     
-                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                               	</p>	  								
-                
-								<button class="enviar" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>				
-						
-					</form>
+			</form>
 		</div>	
 	</div>
 
+	<script src="funcionesContacto.js"></script>
 </body>
 </html>

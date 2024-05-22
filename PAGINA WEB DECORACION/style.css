@@ -1,6 +1,5 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Black+And+White+Picture&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Madimi+One&display=swap');
+
 body{
     background: url(imagenes/jarron\ rosado.jpg);
     background-size: cover;
@@ -32,6 +31,21 @@ button {
     font-family: cursive;
     font-size: larger;
     color: rgb(67, 64, 64);
+}
+
+@media(max-width: 1000px){
+    .titulos{
+        display: flex;
+        flex-flow: column wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        font-family: cursive;
+        font-size: larger;
+        color: rgb(67, 64, 64);
+    }
 }
 
 .titulos a {
